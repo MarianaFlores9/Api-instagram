@@ -12,10 +12,7 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/metodo', (req, res) => {
-  const toke = 'IGQVJXd3FGOHBjQzNNWW1sY2lXRkhNTFZA4SEpVbmhOQ095WlBaOTVhMHVteUREdFF5bHlESHZAYSUdjNDRKRllrWEhmN21FLXF1MTJsX2VSUEJySUxZAdlJNZA0VYUTJnRWJHTzdKYWM3aUE1Ny04OEIxSQZDZD';
-  res.send(toke);
-})
+
 
 
 
